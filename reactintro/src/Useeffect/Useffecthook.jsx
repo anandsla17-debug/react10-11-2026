@@ -26,6 +26,18 @@ setcount(0);
 }
 },[count])
 
+useEffect(()=>{
+async function api(){
+try {
+    const response=await fetch("https://jsonplaceholder.typicode.com/posts");
+    const datas=await response.json();
+    console.log(datas)
+} catch (error) {
+    alert("api failed");
+}
+}
+api()
+},[]);
     return(
         <>
         <h1>useeffect hooks</h1>
@@ -35,8 +47,6 @@ setcount(0);
         <button onClick={()=>setalertmessage("submited successfully")}>submit</button>
         <p>{count}</p>
         <button onClick={()=>setcount(count+1)}>increment</button>
-
-
 
         </>
     )
