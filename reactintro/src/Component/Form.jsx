@@ -4,7 +4,6 @@ import First from "./First";
 
 function Form(){
     const data="pen,penicle,scale";
-
     const course={
         c1:"python",
         c2:"java",
