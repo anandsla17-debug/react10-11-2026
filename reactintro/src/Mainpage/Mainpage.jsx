@@ -3,6 +3,7 @@ import { Link, Outlet } from "react-router-dom";
 function Mainpage(){
     return(
         <>
+        
         <p>Main page</p>
         <div className="d-flex gap-2 justify-content-center">
         <Link to="/style" className="btn btn-primary">Style</Link>
