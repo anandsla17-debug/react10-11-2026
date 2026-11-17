@@ -10,8 +10,8 @@ function Mainapi(){
      
         <div className="d-flex justify-content-center gap-5">
             <Link to="/mainapi/post" className="btn btn-primary">Post</Link>
-            <Link  className="btn btn-secondary">Put</Link>
-            <Link className="btn btn-success">Get</Link>
+            <Link className="btn btn-secondary">Put</Link>
+            <Link  to="/mainapi/get"  className="btn btn-success">Get</Link>
             <Link className="btn btn-danger">Delete</Link>
         </div>
         <Outlet></Outlet>

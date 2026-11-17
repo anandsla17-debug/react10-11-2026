@@ -1,4 +1,5 @@
 
+import Get from './Apicalling/Get';
 import Mainapi from './Apicalling/MainApi';
 import Post from './Apicalling/Post';
 import './App.css'
@@ -29,6 +30,7 @@ function App() {
       {/* nexted routing */}
       <Route path='/mainapi' element={<Mainapi></Mainapi>}>
       <Route path='post' element={<Post></Post>}></Route>
+      <Route path='get' element={<Get></Get>}></Route>
       </Route>
     
     </Routes>
