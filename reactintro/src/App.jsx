@@ -1,7 +1,9 @@
 
+import Deletes from './Apicalling/Deletes';
 import Get from './Apicalling/Get';
 import Mainapi from './Apicalling/MainApi';
 import Post from './Apicalling/Post';
+import Put from './Apicalling/Put';
 import './App.css'
 
 import Form from './Component/Form'
@@ -31,6 +33,8 @@ function App() {
       <Route path='/mainapi' element={<Mainapi></Mainapi>}>
       <Route path='post' element={<Post></Post>}></Route>
       <Route path='get' element={<Get></Get>}></Route>
+      <Route path='put' element={<Put></Put>}></Route>
+      <Route path="delete" element={<Deletes></Deletes>}></Route>
       </Route>
     
     </Routes>

@@ -15,7 +15,7 @@ async function Getapi(){
         alert("api failed");
     }
 }
-Getapi();
+Getapi();//call
 },[])
 
     return(
@@ -34,7 +34,7 @@ Getapi();
                 {
                     display.map((view,index)=>(
                         <tr key={index}>
-                            
+                          
                             <td>{view.userId}</td>
                             <td>{view.id}</td>
                             <td>{view.title}</td>
