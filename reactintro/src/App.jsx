@@ -7,6 +7,7 @@ import Put from './Apicalling/Put';
 import './App.css'
 
 import Form from './Component/Form'
+import MainContent from './Content/MainContent';
 import Mainpage from './Mainpage/Mainpage';
 import About from './Nestedrouting/About';
 import Contact from './Nestedrouting/Contact';
@@ -36,6 +37,7 @@ function App() {
       <Route path='put' element={<Put></Put>}></Route>
       <Route path="delete" element={<Deletes></Deletes>}></Route>
       </Route>
+      <Route path='/content' element={<MainContent></MainContent>}></Route>
     
     </Routes>
     

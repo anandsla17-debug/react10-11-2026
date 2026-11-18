@@ -14,6 +14,7 @@ function Mainpage(){
         <Link to="/about" className="btn btn-dark">about</Link>
         <Link to="/contact" className="btn btn-success">contact</Link>
         <Link to ="/mainapi" className="btn btn-warning">Main api page</Link>
+        <Link to="/content" className="btn btn-success">content hooks</Link>
         </div>
         <Outlet></Outlet>  {/* display */}
         </>
