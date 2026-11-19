@@ -4,7 +4,7 @@ import Content from "./Content";
 import { data } from "react-router-dom";
 
 function Second(){
-    const info=useContext(Content);
+    const info=useContext(Content);//share
     const [name,setname]=useState("");
     const[age,setage]=useState("");
     return(
