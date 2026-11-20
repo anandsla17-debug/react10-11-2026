@@ -1,7 +1,7 @@
 function Form(){
     return(
         <>
-        <p className="bg-blue-300 p-2 text-4xl font-semibold text-center ">Student Page</p>
+        <p className="bg-blue-300 p-2 text-4xl font-semibold text-center mt-1 ">Student Page</p>
 
         <div className="flex flex-col  gap-2    items-center  mt-3  border-2 border-amber-500 p-3 mx-45 rounded"  >
            
