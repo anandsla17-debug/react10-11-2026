@@ -1,5 +1,6 @@
 
 import './App.css'
+import Form from './Component/Form'
 import Tailwind from './Component/Tailwind'
 
 function App() {
@@ -10,7 +11,8 @@ function App() {
    {/* <h1 class="text-3xl font-bold underline">
     Hello world!
   </h1> */}
-<Tailwind></Tailwind>
+{/* <Tailwind></Tailwind> */}
+<Form></Form>
 
     </>
   )
